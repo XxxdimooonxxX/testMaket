@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
 
 /* Стили */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Heebo;
+}
 html,body{
     height: 100%;
     line-height: 1;
@@ -25,13 +30,42 @@ html,body{
 .menu__link {
     text-decoration: none;
     color: #000000;
-    font-family: Heebo;
     font-size: 20px;
 }
 .wrapper{
     /* border: 10px solid black; */
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
     flex-direction: column;
     min-height: 100%;
+}
+.footer {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+.footer__conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__item {
+    margin-right: 36px;
+}
+.main{
+    flex: 1 1 auto;
+}
+.last {
+    margin-right: 0px;
+}
+.footer__text {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+    /* margin-left: 36px; */
+
 }
