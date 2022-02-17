@@ -2,3 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
 
 /* Стили */
+html,body{
+    height: 100%;
+    line-height: 1;
+}
+.header {
+}
+.header__menu {
+}
+.menu {
+    display: flex;
+    justify-content: end;
+    margin: 34px 60px 0px 0px;
+}
+.menu__list {
+    list-style-type: none;
+    display: flex;
+}
+.menu__item {
+    margin: 0px 36px 0px 0px;
+}
+.menu__link {
+    text-decoration: none;
+    color: #000000;
+    font-family: Heebo;
+    font-size: 20px;
+}
+.wrapper{
+    /* border: 10px solid black; */
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    min-height: 100%;
+}
