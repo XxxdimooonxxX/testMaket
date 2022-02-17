@@ -2,3 +2,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
 
 /* Стили */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.conteiner{
+    max-width: 682px;
+    margin: 0 auto;
+}
+.header {
+}
+.main {
+    flex: 1 1 auto;
+}
+.works {
+    font-family: Heebo;
+}
+.works__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* Dark Color */
+    color: #21243D;
+}
+.works__list {
+}
+.item-work {
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 50px 0px;
+}
+.item-work__photo {
+}
+.item-work__content {
+    padding-left: 20px;
+}
+.item-work__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* Dark Color */
+    color: #21243D;
+}
+.item-work__subtitle {
+    margin-top: 15px;
+}
+.item-work__date {
+    background: #142850;
+    border-radius: 16px;
+    padding: 0px 10px;
+    margin-right: 25px;
+    display: inline-block;
+    /*  */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    /* line-height: 5px; */
+    color: #FFFFFF;
+}
+.item-work__tag {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.item-work__text {
+    margin-top: 18px;
+}
+.footer {
+}
