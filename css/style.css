@@ -19,6 +19,7 @@ html, body{
 }
 .conteiner{
     max-width: 682px;
+    padding: 0px 10px;
     margin: 0 auto;
 }
 .header {
@@ -26,6 +27,8 @@ html, body{
 .main {
     flex: 1 1 auto;
 }
+
+/* *=====================* DOR PAGE WORKS *=====================* */
 .works {
     font-family: Heebo;
 }
@@ -44,10 +47,30 @@ html, body{
     border-bottom: 1px solid #E0E0E0;
     padding: 50px 0px;
 }
+@media (max-width: 600px) {
+    .item-work {
+        flex-direction: column;
+    }
+}
 .item-work__photo {
+    max-width: 250px;
+    flex: 0 0 auto;
+}
+@media (max-width: 600px) {
+    .item-work__photo {
+        max-width: none;
+    }
+}
+.item-work__photo img{
+    width: 100%;
 }
 .item-work__content {
     padding-left: 20px;
+}
+@media (max-width: 600px) {
+    .item-work__content {
+        padding-left: 0px;
+    }
 }
 .item-work__title {
     font-style: normal;
@@ -84,5 +107,28 @@ html, body{
 .item-work__text {
     margin-top: 18px;
 }
+
+
+
+
+/* *=====================* FOOTER *=====================* */
 .footer {
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+.footer-info {
+}
+.footer-info__social {
+    text-align: center;
+    margin-bottom: 26px;
+}
+.footer-info__social a{
+    margin-left: 36px;
+    text-decoration: none;
+}
+.footer-info__social a:nth-child(1){
+    margin-left: 0;
+}
+.footer-info__subtitle {
+    text-align: center;
 }
