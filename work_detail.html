@@ -9,7 +9,16 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">шапка</header>
+        <header class="header">
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item"> <a href="index.html" class="menu__link">Home</a> </li>
+                    <li class="menu__item"> <a href="works.html" class="menu__link">Works</a> </li>
+                    <li class="menu__item"> <a href="blog.html" class="menu__link">Blog</a> </li>
+                    <li class="menu__item"> <a href="contact.html" class="menu__link">Contact</a> </li>
+                </ul>
+            </nav>
+        </header>
         <main class="main">
             <div class="conteiner content">
                 <div class="content__title">Designing Dashboards with usability in mind</div>
@@ -29,24 +38,26 @@
             </div>
         </main>
         <footer class="footer">
-            <div class="footer-info conteiner">
-                <div class="footer-info__social">
-                    <a href="#">
-                        <img src="/image/social/fb.svg" alt="">
+            <div class="conteiner footer__info">
+                <div class="footer__social">
+                    <a href="" class="footer__item">
+                        <img src="/image/social/fb.svg" alt="facebook">
                     </a>
-                    <a href="#">
-                        <img src="/image/social/insta.svg" alt="">
+                    <a href="" class="footer__item">
+                        <img src="/image/social/insta.svg" alt="insta">
                     </a>
-                    <a href="#">
-                        <img src="/image/social/twitter.svg" alt="">
+                    <a href="" class="footer__item">
+                        <img src="/image/social/twitter.svg" alt="twitter">
                     </a>
-                    <a href="#">
-                        <img src="/image/social/linkedin.jpg" alt="">
+                    <a href="" class="footer__item last">
+                        <img src="/image/social/fb.svg" alt="linkedin">
                     </a>
-                </div>
-                <div class="footer-info__subtitle">Copyright ©2020 All rights reserved </div>
             </div>
-        </footer>
+            <div class="footer__subtitle">
+                Copyright ©2020 All rights reserved 
+            </div>
+        </div>
+    </footer>
     </div>
 </body>
 </html>
