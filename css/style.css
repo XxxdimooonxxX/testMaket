@@ -23,13 +23,39 @@ html, body{
     padding: 0px 15px;
     margin: 0 auto;
 }
+
+/* *=====================* HEADER *=====================* */
 .header {
 }
+.header__menu {
+}
+.menu {
+    display: flex;
+    justify-content: end;
+    margin: 34px 60px 0px 0px;
+}
+.menu__list {
+    list-style-type: none;
+    display: flex;
+}
+.menu__item {
+    margin: 0px 36px 0px 0px;
+}
+.menu__link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+.menu__link:hover{
+    color: #FF6464;
+}
+
+/* *=====================* MAIN *=====================* */
 .main {
     flex: 1 1 auto;
 }
 
-/* *=====================* DOR PAGE WORKS *=====================* */
+/* *=====================* FOR PAGE WORKS *=====================* */
 .works {
 }
 .works__title {
@@ -181,22 +207,25 @@ html, body{
 
 /* *=====================* FOOTER *=====================* */
 .footer {
-    margin-top: 100px;
-    margin-bottom: 55px;
-}
-.footer-info {
-}
-.footer-info__social {
     text-align: center;
-    margin-bottom: 26px;
 }
-.footer-info__social a{
-    margin-left: 36px;
+.footer__info{
+    margin-bottom: 30px;
+}
+.footer__social{
     text-decoration: none;
+    margin-right: 36px;
 }
-.footer-info__social a:nth-child(1){
-    margin-left: 0;
+.last{
+    margin-right: 0px;
 }
-.footer-info__subtitle {
+.footer__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
     text-align: center;
+    color: #21243D;
+    margin-bottom: 60px;
 }
+
