@@ -6,6 +6,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Heebo;
 }
 html, body{
     height: 100%;
@@ -19,7 +20,7 @@ html, body{
 }
 .conteiner{
     max-width: 682px;
-    padding: 0px 10px;
+    padding: 0px 15px;
     margin: 0 auto;
 }
 .header {
@@ -30,7 +31,6 @@ html, body{
 
 /* *=====================* DOR PAGE WORKS *=====================* */
 .works {
-    font-family: Heebo;
 }
 .works__title {
     font-style: normal;
@@ -109,7 +109,75 @@ html, body{
 }
 
 
+/* *=====================* WORK_DETAIL *=====================* */
+.content {
+}
+.content__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    /* line-height: 50px; */
+    color: #21243D;
+}
+.content__subtitle {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.content__date {
+    background: #FF7C7C;
+    border-radius: 16px;
+    padding: 0px 10px;
+    margin-right: 25px;
+    /*  */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.content__tag {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+}
+.content__body {
+    margin-top: 35px;
+}
+.content__body p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* line-height: 23px; */
+    color: #000000;
 
+    margin-bottom: 20px;
+}
+.content__body img{
+    margin: 10px 0px;
+    width: 100%;
+}
+.hedling_1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    /* line-height: 60px; */
+    color: #21243D;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.hedling_2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* line-height: 60px; */
+    color: #21243D;
+
+    margin-bottom: 20px;
+}
 
 /* *=====================* FOOTER *=====================* */
 .footer {
